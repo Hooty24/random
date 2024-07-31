@@ -90,5 +90,5 @@ def interpret(code):
     return ''.join(output)
 
 
-print(interpret(
-    '62*1+v>01p001>+v>\\:02p\\:02gv\n     0       ^             <\n     .         :p\n     "         .1\n        v 0," "<0\n     "  >1g12-+:|\n     ,          @\n     >^\n'))
+code = '62*1+v>01p001>+v>\\:02p\\:02gv\n     0       ^             <\n     .         :p\n     "         .1\n        v 0," "<0\n     "  >1g12-+:|\n     ,          @\n     >^\n'
+print(interpret(code))
